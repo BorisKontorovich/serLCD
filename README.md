@@ -23,11 +23,18 @@ Here is a couple of things that are useful to know about this library.
     `lcd.setType(3);`<br>
     `lcd.setType(5);`
 
-3. Outputting text to display is simple:
+3. Outputting text to display is simple:<br>
+
     `lcd.print("Some text");`
+
 4. To move to specific row (setting cursor to column 1):<br>
+
     `lcd.select(1) // Line 1 in this case`
-5. To put cursor into a specific locations, lets say row 2 column 5:
+
+5. To put cursor into a specific locations, lets say row 2 column 5: <br>
+
     `lcd.setCursor(2, 5);  // format is (row, col)`
+
 6. You can clear the display:<br>
+
     `lcd.clear();`
