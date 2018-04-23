@@ -29,7 +29,7 @@ Here is a couple of things that are useful to know about this library.
 
 4. To move to specific row (setting cursor to column 1):<br>
 
-    `lcd.select(1) // Line 1 in this case`
+    `lcd.selectLine(1) // Line 1 in this case`
 
 5. To put cursor into a specific locations, lets say row 2 column 5: <br>
 
