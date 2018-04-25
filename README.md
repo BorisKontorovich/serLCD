@@ -9,7 +9,7 @@ Here is a couple of things that are useful to know about this library.
 1. To create an instance of lcd object
 
     `#define LCD_RX_PIN 8 // RX pin` <br>
-    `serLCD lcd = ser(LCD_RX_PIN); // lcd will be the name of the instance`
+    `serLCD lcd = serLCD(LCD_RX_PIN); // lcd will be the name of the instance`
 
 2. To setup the display, you will need to call the setType method twice.  This method can be called with the following parameters:
 
